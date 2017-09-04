@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Form 2 Basic</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>Form Basic</div>
+        <div>
+            <p style="word-wrap: break-word; width: 700px;">
+                A <b>form</b> tag <b>method</b> attributumában két értéket lehet megadni, GET/POST, ebben a példában a POST értéket használtuk.
+                Az <b>input</b> tag <b>type</b> attributuma sok féle értéket vehet fel, az egyik leggyakrabban használt a text,
+                ha ezt elrontjuk és mást írunk bele pl.: kiskutya, akkor is alapértelmezetten a böngésző a TextBox-ot készít.
+                Az <b>input</b> tag <b>name</b> attributumába írt azonosítót a szerveroldali programnyelvek használják kulcsként
+                Az <b>input</b> tag <b>id</b> attributumába írt azonosítót a kliens oldali javascript vagy a CSS használja és a taget egyedileg azonosítja.
+                Az <b>input</b> tag <b>value</b> attributumába írt értéke megjelenik az input mezőben, ehhez kapcsoloódik a HTML5 ben a 
+                <b>placeholder</b> attributum, ami a HTML5 szabvánnyal érlezett, és egy halványabb szöveget tesz a TextBox-ba, továbbá ha bele kattintunk a TextBox-ba, akkor eltünik a felirat.
+            </p>
+        </div>
+        <form method="POST">
+            <input type="text" name="data" id="data" value="Initialized data"/>
+            <input type="submit" name="submit" />
+        </form>
+    </body>
+</html>
